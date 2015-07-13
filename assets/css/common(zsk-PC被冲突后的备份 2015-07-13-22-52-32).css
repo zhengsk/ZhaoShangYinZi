@@ -4,75 +4,15 @@
 .pt2{padding-top: 2px;} .pt3{padding-top: 3px;} .pt5{padding-top: 5px;} .pt8{padding-top: 8px;} .pt10{padding-top: 10px;} .pt15{padding-top: 15px;} .pt20{padding-top: 20px;} .pt25{padding-top: 25px;} .pt30{padding-top: 30px;}
 .pb2{padding-bottom: 2px;} .pb3{padding-bottom: 3px;} .pb5{padding-bottom: 5px;} .pb8{padding-bottom: 8px;} .pb10{padding-bottom: 10px;} .pb15{padding-bottom: 15px;} .pb20{padding-bottom: 20px;} .pb25{padding-bottom: 25px;} .pb30{padding-bottom: 30px;}
 
-.width-100{width: 100%;}
-
 html,body{
 	font: 14px/1.6 "Microsoft YaHei","Hiragino Sans GB";
 }
 
 .navbar.pageHeader{
 	background-color: #A40000;
-	height: 120px;
-}
-
-.pageHeader .header-info{
-	font-size: 1.2em;
-	padding: 12px 0 8px 20px;
-	color: #FFF;
-}
-
-.header-info .info-tel{
-
-}
-
-.header-info .info-media{
-	float: right;
 }
 
 
-
-.header-info .info-media a,
-.header-info .info-media img{
-	color: #FFF;
-	vertical-align: middle;
-	text-decoration: none;
-}
-
-.pageHeader .logo img{
-	vertical-align: middle;
-	width: 75px;
-}
-
-.pageHeader .logo{
-	color: #FFF;
-	font-size: 32px;
-	vertical-align: middle;
-}
-
-.pageHeader .logo:hover{
-	text-decoration: none;
-}
-
-.navbar-top{
-	margin-top: 140px;
-}
-
-.navbar-top .container-fluid,
-.navbar-top .navbar-collapse{
-	padding-left: 0;
-	padding-right: 0;
-}
-
-
-
-.navbar-toggle{
-	background-color: rgba(0,0,0,0.2);
-	border-color: rgba(255,255,255,0.5);
-}
-
-.navbar-toggle .icon-bar{
-	background-color: rgba(255,255,255,0.8);
-}
 
 /* ========== article-area ==============*/
 
@@ -90,7 +30,7 @@ html,body{
 	color: #E74C3C;
 	border-bottom: 3px solid #E74C3C;
 	position: relative;
-	top:2px;
+	top:1px;
 	padding: 0 5px 5px 0;
 	font-size: 1.2em;
 }
@@ -112,10 +52,6 @@ html,body{
 	padding-bottom: 5px;
 }
 
-.article-body .media-left img{
-	max-width: 160px;
-}
-
 .article-body .media-info{
 	color: #666;
 }
@@ -133,21 +69,6 @@ html,body{
 	color: #555;
 }
 
-.article-title-blue,
-.article-title-blue .title-name,
-.article-title-blue .title-link{
-	color: #3498DB;
-	border-bottom-color: #3498DB;
-}
-
-.article-title-green,
-.article-title-green .title-name,
-.article-title-green .title-link{
-	color: #1ABC9C;
-	border-bottom-color: #1ABC9C;
-}
-
-
 
 .thumbnail-pic-list .thumbnail{
 	position: relative;
@@ -157,7 +78,7 @@ html,body{
 .thumbnail-pic-list .note{
 	position: absolute;
 	bottom: 0;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.4);
 	color: #FFF;
 	height: 1.6em;
 	line-height: 1.6em;
@@ -171,37 +92,5 @@ html,body{
 }
 
 .thumbnail-pic-list .thumbnail:hover .note{
-	background-color: rgba(0,0,0,0.7);
-}
-
-.nav-pills.tip-show-area{
-	position: relative;
-}
-
-.tip-show-area li{
-	position: static;
-}
-
-.nav-pills.tip-show-area a{
-	padding: 6px 12px;
-}
-
-.tip-show-ele{
-	padding:10px;
-	line-height: 2em;
-	position: absolute;
-	left: 0;
-	width: 100%;
-	border: 1px solid #CCC;
-	background-color: #fff;
-	display: none;
-}
-
-.nav-pills.tip-show-area li:hover>a{
-	font-weight: bold;
-	color: #23527C;
-}
-
-.nav-pills.tip-show-area li:hover .tip-show-ele{
-	display: block;
+	background-color: rgba(0,0,0,0.6);
 }
