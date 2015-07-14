@@ -54,7 +54,13 @@ html,body{
 }
 
 .navbar-top{
-	margin-top: 140px;
+	
+}
+
+.pageNavBar{
+	border: 1px solid #E7E7E7;
+	margin-left: 0!important;
+	margin-right: 0!important;
 }
 
 .navbar-top .container-fluid,
