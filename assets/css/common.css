@@ -221,3 +221,40 @@ html,body{
 .article-content{
 	padding: 1.2em 0 4em;
 }
+
+
+
+
+.label-filter-wrapper{
+	border: 1px solid #CCC;
+	padding:15px 15px 0;
+	margin-bottom: 30px;
+}
+
+.label-filter .label{
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 2.5em;
+	margin-left: 5px;
+}
+
+.label-filter-wrapper .control-label{
+	font-size: 1.1em;
+}
+
+
+.garden-info .nav-tabs>.active>a{
+	border-color: #aaa;
+	border-bottom-color: #FFF;
+}
+
+.garden-info .nav-tabs,
+.garden-info .nav-tabs>li>a{
+	border-bottom-color: #aaa;
+}
+
+.garden-content{
+	margin-top: 10px;
+	margin-bottom: 30px;
+	padding:20px;
+}
