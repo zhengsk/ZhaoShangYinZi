@@ -10,6 +10,10 @@ html,body{
 	font: 14px/1.6 "Microsoft YaHei","Hiragino Sans GB";
 }
 
+.only-show-article .hide-me{
+    display: none!important;
+}
+
 .navbar.pageHeader{
 	background-color: #A40000;
 	height: 120px;

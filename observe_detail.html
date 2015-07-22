@@ -13,10 +13,12 @@
         <script src="assets/js/html5shiv.min.js"></script>
         <script src="assets/js/respond.min.js"></script>
         <![endif]-->
+
     </head>
     <body>
 
-        <div class="navbar pageHeader">
+
+        <div class="navbar pageHeader hide-me">
             <div class="container">
                 <div class="header-info">
                     <span class="info-tel">电话：400-110-0598</span>
@@ -43,7 +45,7 @@
         </div>
 
         <div class="container">
-            <nav class="navbar navbar-default collapse navbar-collapse pageNavBar" id="navbar">
+            <nav class="navbar navbar-default collapse navbar-collapse pageNavBar hide-me" id="navbar">
                 <div class="container-fluid">
                         <ul class="nav navbar-nav">
                             <li><a href="#">首页</a></li>
@@ -62,7 +64,7 @@
 
             <div class="row">
                 <div class="col-sm-8">
-                    <ol class="breadcrumb page-breadcrumb">
+                    <ol class="breadcrumb page-breadcrumb hide-me">
                       <li><a href="#">首页</a></li>
                       <li><a href="#">政经观察</a></li>
                       <li class="active">正文</li>
@@ -85,7 +87,7 @@
                     </section>
 
                 </div>
-                <div class="col-sm-4 hidden-xs">
+                <div class="col-sm-4 hidden-xs hide-me">
                     <div class="mb10">
                         <img src="_temp/images/ad_placeholder.png" alt="" class="width-100">
                     </div>
@@ -100,7 +102,7 @@
           
         </div>
         
-        <div class="pageFooter">
+        <div class="pageFooter hide-me">
             <p class="text-center">
                 <a href="">厦门投融客信息技术有限公司</a> |
                 <a href="">关于我们</a> |
@@ -112,6 +114,12 @@
         
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/common.js"></script>
+        <script>
 
+            // 隐藏不需要的内容
+            detailOnlyShow('m');
+            
+        </script>
     </body>
 </html>
