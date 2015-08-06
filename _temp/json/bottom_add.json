@@ -1,0 +1,43 @@
+{
+    "results": [{
+        "action": "web",
+        "background": "#ffffff",
+        "enabled": true,
+        "id": 3,
+        "image": "http://img.hequ.info/banner/merchant/app_v031.png",
+        "memo": "xxx",
+        "name": "招商引资宝APP上线",
+        "param": {
+            "url": "http://eqxiu.com/s/eLzD7n8I?eqrcode=1"
+        },
+        "position": "0",
+        "updatetime": 1438501695775
+    }, {
+        "action": "web",
+        "background": "#ffffff",
+        "enabled": true,
+        "id": 4,
+        "image": "http://img.hequ.info/banner/merchant/xiamen/5.png",
+        "memo": "招商引资宝因而生为您改变",
+        "name": "用户体验大调查",
+        "param": {
+            "url": "http://www.sojump.com/jq/4914930.aspx"
+        },
+        "position": "0",
+        "updatetime": 1438501695775
+    }, {
+        "action": "web",
+        "background": "#ffffff",
+        "enabled": true,
+        "id": 5,
+        "image": "http://img.hequ.info/banner/merchant/2015xmcifit_trk.png",
+        "memo": "厦门风情",
+        "name": "2015厦门国际投资贸易洽谈会",
+        "param": {
+            "url": "http://eqxiu.com/s/Fmk6925p"
+        },
+        "position": "0",
+        "updatetime": 1438501695775
+    }],
+    "status": 200
+}

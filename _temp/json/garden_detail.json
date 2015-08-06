@@ -1,0 +1,35 @@
+<p>文章内容</p>
+<div class="garden-info">
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="#pageTab_0" data-toggle="tab">页签标题1</a></li>
+		<li class=""><a href="#pageTab_1" data-toggle="tab">页签标题2</a></li>
+	</ul>
+	<div class="tab-content">
+		<div class="tab-pane active" id="pageTab_0">
+			<div class="garden-content">
+				<p>页签内容1<br></p>
+			</div>
+		</div>
+		<div class="tab-pane " id="pageTab_1">
+			<div class="garden-content">
+				<p>页签内容2</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<textarea id="hiddenPageContent" style="display:none">
+	{
+		"title":"文章标题",
+		"content":"<p>文章内容</p>",
+		"tabs":[
+			{
+				"tabTitle":"页签标题1",
+				"tabContent":"<p>页签内容1<br/></p>"
+			},{
+				"tabTitle":"页签标题2",
+				"tabContent":"<p>页签内容2</p>"
+			}
+		]
+	}
+</textarea>
