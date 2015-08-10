@@ -56,7 +56,6 @@ function newsList (opts) {
 				
 				var ele = $('<div class="media"></div>');
 				if(item.images){
-					debugger;
 					var img = '<div class="media-left"><a href="'+ item.url +'"><img class="media-object" src="'+ item.images[0] +'"></a></div>'
 					ele.append($(img));
 				}
