@@ -7,30 +7,19 @@ function mainCarousel (opts) {
     })
     .done(function(resp) {
         if(resp.status == 200){
-            var $indicators = $(opts.indicators);
-            var $slides = $(opts.inner);
+            var $slides = $(opts.id);
 
-            var slides = [], indicators = [];
+            var slides = [];
             $.each(resp.results, function (index, item) {
-            	indicators.push(('<li data-target="#carousel-generic" data-slide-to="'+ index +'"></li>'));
-            	slides.push(('<div class="item"> <a href="'+ item.url +'"><img src="'+ item.images +'" alt="'+ item.title +'"></a> <div class="carousel-caption"> '+ item.title +' </div> </div>'));
+            	slides.push(('<li><img src="'+ item.images +'" /><p class="flex-caption"><a href="'+ item.url +'">'+ item.title +'</a></p></li>'));
             });
 
-            $indicators.html(indicators.join(''));
-            $slides.append($(slides.join('')));
+            $slides.find('.slides').append($(slides.join('')));
 
-            // $('#carousel-generic').carousel();
+            $slides.flexslider({
+                animation: "slide"
+            });
 
-            /* <li data-target="#carousel-generic" data-slide-to="0" class="active"></li> */
-
-			/*
-            <div class="item">
-                <img src="_temp/images/slide_02.jpg" alt="图片1">
-                <div class="carousel-caption">
-                    机APP上线
-                </div>
-            </div>
-            */
         }else{
             alert("加载幻灯图片失败！")
         }
